@@ -5,6 +5,24 @@
     list-style: none;
     font-family: sans-serif;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #eee;
+    border-bottom: 2px solid gray;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
 
 .container {
     max-width: 700px;
